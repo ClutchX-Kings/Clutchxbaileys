@@ -1,17 +1,14 @@
 {
   "name": "@whiskeysockets/baileys",
-  "version": "1.0.0",
-  "main": "lib/index.cjs",
-  "module": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "version": "7.0.0",
+  "main": "./lib/index.cjs",
+  "module": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "exports": {
     ".": {
       "require": "./lib/index.cjs",
       "import": "./lib/index.js"
     }
   },
-  "type": "module",
-  "engines": {
-    "node": ">=18.0.0"
-  }
+  "type": "module"
 }
